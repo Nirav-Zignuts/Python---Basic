@@ -1,0 +1,9 @@
+data = {}
+cnt = int(input("enter how many records you want to enter :  "))
+for i in range(cnt):
+    print(f"Enter data for the {i+1} record ")
+    name = str(input("Enter you name :"))
+    lst = str(input("enter you contact number and email seprated by space : ")).split(" ")
+    data[name]=lst
+print("your data is stored successfully")
+print(data)

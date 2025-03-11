@@ -1,0 +1,18 @@
+# a = "hello world"
+# print(a[-1:-6:-1])
+# a = "5"
+# b=a.zfill(5)
+# print(b)
+# txt = "hello world"
+
+# x = txt.zfill(10)
+
+# print(x)
+demo_str = str(input("Enter a string: "))
+#print(a[::-1])
+x = len(demo_str)-1
+j = ""
+while x>=0:
+    j+=demo_str[x]
+    x = x-1
+print(j)
