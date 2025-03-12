@@ -51,16 +51,18 @@ finally:
 # obj.say_hello(10)
 
 
-with open("test.txt","w") as f:
-    for i in range(10):
-        f.write(str(i)+"\n")
-with open("test.txt","r") as f:
-    for line in f:
-        print(line)
-print("you wanna add some stuff to file or not")
-data = str(input("Enter : "))
-with open("test.txt","a") as f:
-    f.write(data)   
-with open("test.txt","r") as f:
-    for line in f:
-        print(line)
+# with open("test.txt","w") as f:
+#     for i in range(10):
+#         f.write(str(i)+"\n")
+# with open("test.txt","r") as f:
+#     for line in f:
+#         print(line)
+# print("you wanna add some stuff to file or not")
+# data = str(input("Enter : "))
+# with open("test.txt","a") as f:
+#     f.write(data)   
+# with open("test.txt","r") as f:
+#     for line in f:
+#         print(line)
+import random
+print(random.randint(100,999))
